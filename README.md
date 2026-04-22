@@ -9,18 +9,6 @@
 
 O principal objetivo da Winnex.ai é transformar dados operacionais em decisões estratégicas rápidas. Processos que levariam horas são reduzidos a apenas alguns segundos, com precisão e escalabilidade.
 
-Principais funcionalidades:
-
-    Gestão Unificada: integra sistemas e dados financeiros, fiscais, operacionais e jurídicos para uma visão completa do negócio.
-
-    Análise Preditiva: utiliza IA para prever tendências de vendas, otimizar estoques e identificar riscos financeiros antes que ocorram.
-
-    Automação de Processos: aprende as rotinas da empresa para automatizar fluxos de trabalho, como aprovação de despesas e comunicação com clientes.
-
-    Interação por Linguagem Natural: gestores fazem perguntas diretas ao sistema e geram dashboards e relatórios dinâmicos sem programação.
-
-    Arquitetura Técnica: a Winnex.ai opera com uma pilha de inferência de nível empresarial, empregando métodos matemáticos avançados, como campos de vetores Hamiltonianos, para evitar alucinações e processar grandes janelas de contexto com eficiência.
-
 Soluções por segmento com Winnex.ai:
 
 Agronegócio
