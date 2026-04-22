@@ -476,7 +476,7 @@ def main():
     for k, v in results.items():
         serializable_results[k] = {k2: (str(v2) if v2 else f">{SEARCH_K}") for k2, v2 in v.items()}
 
-    with open("winnex_benchmark_improved_v4.2.json", "w") as f:
+    with open("result.json", "w") as f:
         json.dump(serializable_results, f, indent=2)
     print("\n  Resultados salvos em winnex_benchmark_improved_v4.2.json")
 
