@@ -1,30 +1,16 @@
 Business Source License 1.1
 
-License text copyright (c) 2017 MariaDB Corporation Ab, All Rights Reserved.
-"Business Source License" is a trademark of MariaDB Corporation Ab.
-
------------------------------------------------------------------------------
-
-Parameters
-====================================================================
-
 Licensor:             Winnex Brasil Soluções Empresariais LTDA
                       CNPJ: 58.364.637/0001-47
                       Representante: Klenio Araujo Padilha
 
 Licensed Work:        Winnex AI Inference Stack
-                      (Software e documentação acompanhante)
                       DOI: https://doi.org/10.5281/zenodo.19630736
+                      Repository: https://github.com/winnex/winnex-ai
 
 Additional Use Grant: You may use the Licensed Work for internal business
-                      purposes, including research, development, and
-                      production use within your organization.
-
-                      "Competing Use" means making the Licensed Work available
-                      as a commercial service, product, or hosted solution to
-                      third parties that competes directly with the Licensor's
-                      core products or services, without a separate commercial
-                      license agreement.
+                      purposes, including production use within your
+                      organization, without a commercial license.
 
                       The following uses are NEVER considered Competing Use:
                          a) Internal analytics, reporting, or dashboards
@@ -32,6 +18,18 @@ Additional Use Grant: You may use the Licensed Work for internal business
                          c) Academic research and education
                          d) Government internal operations
                          e) Non-profit or humanitarian activities
+                         f) Personal or hobby projects
+
+                      "Competing Use" means:
+                         a) Offering the Licensed Work as a Software-as-a-Service
+                            (SaaS) platform to third parties
+                         b) Distributing the Licensed Work as a commercial product
+                         c) Using the Licensed Work to provide search/retrieval
+                            services to external customers for a fee
+                         d) Embedding the Licensed Work into a product offered
+                            for sale or license
+                         e) Providing the Licensed Work as a managed service
+                            to third parties
 
 Change Date:          2028-12-31
 
@@ -39,12 +37,13 @@ Change License:       GNU General Public License Version 2.0 (GPL-2.0)
                       SPDX: GPL-2.0-only
 
 Notice:               The Licensed Work is based on the Business Source
-                      License 1.1. The mathematical foundations and benchmark
-                      results are documented at:
+                      License 1.1 (https://mariadb.com/bsl11/). The mathematical
+                      foundations and benchmark results are documented at:
                       https://doi.org/10.5281/zenodo.19630736
 
+-----------------------------------------------------------------------------
 Terms
-====================================================================
+-----------------------------------------------------------------------------
 
 The Licensor hereby grants you the right to copy, modify, create derivative
 works, redistribute, and make non-production use of the Licensed Work.
@@ -69,6 +68,10 @@ modification, are permitted provided that the following conditions are met:
       License. Any use of the Licensed Work for a Competing Use requires a
       separate commercial license agreement with the Licensor.
 
+-----------------------------------------------------------------------------
+Disclaimer of Warranty
+-----------------------------------------------------------------------------
+
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER(S) AND CONTRIBUTORS "AS IS"
 AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
 IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
@@ -81,6 +84,10 @@ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 
+-----------------------------------------------------------------------------
+Contributions
+-----------------------------------------------------------------------------
+
 You are under no obligation whatsoever to provide any bug fixes, patches, or
 upgrades to the features, functionality or performance of the source code
 ("Enhancements") to anyone; however, if you choose to make your Enhancements
@@ -90,38 +97,46 @@ royalty-free, perpetual, worldwide license to use, copy, redistribute, modify
 and create derivative works of your Enhancements.
 
 -----------------------------------------------------------------------------
+Commercial Licensing
+-----------------------------------------------------------------------------
 
-Interpretação em Português (Brasil) - Somente para esclarecimento
-====================================================================
+For Competing Uses as defined above, please contact:
+
+   Winnex Brasil Soluções Empresariais LTDA
+   Email: commercial@winnex.ai
+   Website: https://winnex.ai
+
+-----------------------------------------------------------------------------
+Portuguese Translation (Informative Only)
+-----------------------------------------------------------------------------
 
 Licenciante:         Winnex Brasil Soluções Empresariais LTDA
                      CNPJ: 58.364.637/0001-47
-                     Representante: Klenio Araujo Padilha
 
-Trabalho Licenciado: Código-fonte, documentação e especificações matemáticas
-                     do Winnex AI, conforme depositado no Zenodo sob o DOI:
-                     https://doi.org/10.5281/zenodo.19630736
-
-Data de Mudança:     31 de dezembro de 2028
-                     A partir desta data, esta licença se converte
-                     automaticamente para a GNU General Public License v2.0,
-                     permitindo uso comercial irrestrito nos termos da GPL.
-
-Uso Competitivo:     É considerado "Uso Competitivo" oferecer o Software como
-                     serviço (SaaS), plataforma ou produto comercial que
-                     concorra diretamente com as ofertas principais da
-                     Winnex Brasil, sem uma licença comercial separada.
-
-                     NUNCA são considerados Uso Competitivo:
-                     a) Uso interno para análise ou relatórios
-                     b) Integração em fluxos de trabalho internos
-                     c) Pesquisa acadêmica e educação
-                     d) Operações internas governamentais
-                     e) Atividades humanitárias ou sem fins lucrativos
+Trabalho Licenciado: Winnex AI Inference Stack (winnex.com.br -  winnex.ai - winnexsistemas.com.br ) 
+                     DOI: https://doi.org/10.5281/zenodo.19630736
 
 Permissão Adicional: Você pode usar o Trabalho Licenciado para fins internos
-                     de negócio, incluindo produção, sem necessidade de
-                     licença comercial adicional, desde que não caracterize
-                     Uso Competitivo.
+                     de negócio, incluindo uso em produção, sem necessidade
+                     de licença comercial.
+
+NUNCA são considerados Uso Competitivo:
+   a) Análises internas, relatórios ou dashboards
+   b) Integração em fluxos de trabalho internos
+   c) Pesquisa acadêmica e educação
+   d) Operações internas governamentais
+   e) Atividades humanitárias ou sem fins lucrativos
+   f) Projetos pessoais ou hobby
+
+Uso Competitivo significa:
+   a) Oferecer como SaaS (Software-as-a-Service) para terceiros
+   b) Distribuir como produto comercial
+   c) Fornecer serviços de busca para clientes externos mediante pagamento
+   d) Incorporar em produto comercializado
+   e) Fornecer como serviço gerenciado para terceiros
+
+Data de Mudança:     31 de dezembro de 2028
+
+Licença de Mudança:  GNU General Public License v2.0
 
 -----------------------------------------------------------------------------
