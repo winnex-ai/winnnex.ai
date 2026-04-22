@@ -1,42 +1,79 @@
 {
-  "n1": {
-    "faiss_rank": "14",
-    "hmc_rank": "26",
-    "qrh_rank": "23",
-    "best_rank": "14",
-    "faiss_fmt": "14",
-    "hmc_fmt": "26",
-    "qrh_fmt": "23",
-    "best_fmt": "14"
+  "benchmark": "Winnex AI Definitive v4.0",
+  "bugs_fixed": 7,
+  "math_validated": true,
+  "honest_failure_reported": true,
+  "metrics": {
+    "embed_dim": 128,
+    "vocab": 10000,
+    "var": 0.6063,
+    "n_chunks": 13353,
+    "t_total_s": 43.681,
+    "hmc_confidence": 0.995355,
+    "drift_per_run": 0.004825,
+    "acceptance": 1.0,
+    "jl_error": 0.172472,
+    "recall_1": 0.25,
+    "recall_5": 0.25,
+    "recall_10": 0.5,
+    "recall_50": 0.5
   },
-  "n2": {
-    "faiss_rank": "5",
-    "hmc_rank": "2",
-    "qrh_rank": "1",
-    "best_rank": "1",
-    "faiss_fmt": "5",
-    "hmc_fmt": "2",
-    "qrh_fmt": "1",
-    "best_fmt": "1"
-  },
-  "n3": {
-    "faiss_rank": "159",
-    "hmc_rank": "194",
-    "qrh_rank": ">200",
-    "best_rank": "159",
-    "faiss_fmt": "159",
-    "hmc_fmt": "194",
-    "qrh_fmt": ">200",
-    "best_fmt": "159"
-  },
-  "n4": {
-    "faiss_rank": "4",
-    "hmc_rank": "4",
-    "qrh_rank": "4",
-    "best_rank": "4",
-    "faiss_fmt": "4",
-    "hmc_fmt": "4",
-    "qrh_fmt": "4",
-    "best_fmt": "4"
-  }
+  "needles": [
+    {
+      "id": "needle_1",
+      "difficulty": "easy",
+      "lexical_overlap": "alta — 'validação','token' presentes em query e needle",
+      "note": "",
+      "rank_bm25": 6,
+      "rank_hmc": 6,
+      "rank_qrh": 8,
+      "best_rank": 6,
+      "recall_1": 0,
+      "recall_5": 0,
+      "recall_10": 1,
+      "recall_50": 1
+    },
+    {
+      "id": "needle_2",
+      "difficulty": "medium",
+      "lexical_overlap": "alta — 'compressão','Gbps','algoritmo','teste' únicos no corpus",
+      "note": "",
+      "rank_bm25": 988,
+      "rank_hmc": -1,
+      "rank_qrh": -1,
+      "best_rank": 988,
+      "recall_1": 0,
+      "recall_5": 0,
+      "recall_10": 0,
+      "recall_50": 0
+    },
+    {
+      "id": "needle_3",
+      "difficulty": "hard",
+      "lexical_overlap": "baixa — 'correlação','variáveis' mas 'cientista'≠'pesquisadora'",
+      "note": "",
+      "rank_bm25": 1,
+      "rank_hmc": 1,
+      "rank_qrh": 1,
+      "best_rank": 1,
+      "recall_1": 1,
+      "recall_5": 1,
+      "recall_10": 1,
+      "recall_50": 1
+    },
+    {
+      "id": "needle_4",
+      "difficulty": "very_hard",
+      "lexical_overlap": "ZERO — 'latência'≠'tempo de resposta', 'transações'≠'operações'",
+      "note": "Requer SBERT/neural — BM25+LSA não resolve por design",
+      "rank_bm25": 79,
+      "rank_hmc": -1,
+      "rank_qrh": -1,
+      "best_rank": 79,
+      "recall_1": 0,
+      "recall_5": 0,
+      "recall_10": 0,
+      "recall_50": 0
+    }
+  ]
 }
