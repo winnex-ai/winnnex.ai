@@ -10,6 +10,9 @@
 Benchmark: 
 https://colab.research.google.com/drive/1hCYGe_Gz2Sy4yNw0tXI0f8R00otRBaOK#scrollTo=L5PW2MWnT2SC
 
+
+![Benchmark Report](images/winnex_v4_benchmark_report.png) 
+
 O principal objetivo da Winnex.ai é transformar dados operacionais em decisões estratégicas rápidas. Processos que levariam horas são reduzidos a apenas alguns segundos, com precisão e escalabilidade.
 
 Soluções por segmento com Winnex.ai:
