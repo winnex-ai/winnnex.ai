@@ -7,6 +7,9 @@
 
 **Winnex AI** é uma pilha de inferência empresarial que substitui a recuperação semântica tradicional por navegação física em espaços vetoriais de alta dimensão. Baseado no paper ["Winnex AI: A Mathematical Anatomy for Enterprise-Scale Inference Stack"](https://zenodo.org/records/19630736), este repositório implementa o **benchmark honesto v4.1** que demonstra a eficácia matemática do método.
 
+Benchmark: 
+https://colab.research.google.com/drive/1hCYGe_Gz2Sy4yNw0tXI0f8R00otRBaOK#scrollTo=L5PW2MWnT2SC
+
 O principal objetivo da Winnex.ai é transformar dados operacionais em decisões estratégicas rápidas. Processos que levariam horas são reduzidos a apenas alguns segundos, com precisão e escalabilidade.
 
 Soluções por segmento com Winnex.ai:
