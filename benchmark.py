@@ -18,6 +18,18 @@ Integração:
     H4+M10 combina:        beta duplo-modulado por near-tie E não-comutatividade
 
 Benchmark completo: Random | BM25 | HMC-π | ΨQRH-v0 | ΨQRH-H4+M10
+
+Diagnóstico de causa raiz — Hanning window reduz magnitude do vetor correto (Δmag=-0.005), Phase rotation desalinha direção. Juntos causam flp_bad≈50% em near-ties.
+
+H4 Gate — Residual adaptativo com detecção de near-tie que fecha o gate quando a decisão é incerta (β→0), eliminando flp_bad completamente.
+
+M10 Commutativity Regularization — Framework para penalizar não-comutatividade quando o SO4 é treinado (preparado mas não ativo em inferência).
+
+Validação experimental — 2400 pares em 6 gaps, grid search 4×4, MRR=1.000 vs 0.875 baseline.
+
+
+
+
 """
 import warnings; warnings.filterwarnings('ignore')
 import numpy as np, math, torch, torch.nn as nn, random, time, json
